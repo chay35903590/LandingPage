@@ -31,3 +31,4 @@ jobs:
         run: npx wrangler pages deploy .vercel/output/static --project-name landing-page --branch master
         env:
           CLOUDFLARE_ACCOUNT_ID: 75c73b563d11791ad364f505b212d448
+          CI: ""
